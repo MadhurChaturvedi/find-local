@@ -32,7 +32,7 @@ export default function ({ handleInputChange, query ,handleZipChityChange}) {
           <Grid item xs={3}>
             <TextField
               id="outlined-basic"
-              label="Find Local"
+              label="Item search"
               onChange={handleInputChange}
               value={query}
               variant="outlined"
@@ -70,7 +70,7 @@ export default function ({ handleInputChange, query ,handleZipChityChange}) {
           </Grid>
           <Grid item xs={3}>
             <Button onClick={()=>{navigate("/prod")}} variant="outlined" size="large" sx={{height:55}} style={{background:'rgb(243, 168, 71)',color:"#FFFF",border:'none'}} startIcon={<SearchIcon /> }>
-              Item search
+             Find Local 
             </Button>
           </Grid>
         </Grid>
