@@ -1,0 +1,17 @@
+@media  (min-width:500px) {
+    .main{
+        width: 100%;
+    }
+  
+}
+
+.main{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    .content::-webkit-scrollbar {
+        width: 8px; /* Width of the scrollbar */
+    }
+    
+   
+
+}

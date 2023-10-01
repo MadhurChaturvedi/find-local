@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;1,300&family=Noto+Sans:wght@600&family=Oswald:wght@300&family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=REM:wght@300&family=Roboto&family=Roboto+Condensed:ital@0;1&display=swap');
+.sidebar-title{
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar{
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    border-right:2px solid #e5e5e5;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFF;
+}
+.logo-container{
+    margin-bottom:1 rem ;
+}
+
+.logo-container h1{
+    margin-top: 10px;
+}
+
