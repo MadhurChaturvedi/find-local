@@ -14,7 +14,7 @@ export default function SideBar({ handleChange }) {
       <section className="sidebar">
         <div className="logo-container">
        {/* <h1>Amazon<span style={{fontSize:23,color:'orange'}}>.in</span></h1> */}
-       <h1 onClick={()=>{navigate("/")}} width={50} style={{paddingTop:18,fontWeight:1000,fontSize:30,cursor:'pointer'}}>Find Local</h1>
+       <h1 onClick={()=>{navigate("/")}} width={50} style={{paddingTop:18,fontWeight:1000,fontSize:30,cursor:'pointer', color:'orange'}}><span style={{fontStyle:'oblique'}}>F</span>ind <span style={{fontStyle:'oblique'}}>L</span>ocal</h1>
         </div>
         <Category handleChange={handleChange} />
         <Price handleChange={handleChange} />

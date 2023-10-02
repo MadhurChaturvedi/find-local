@@ -6,7 +6,6 @@ import SideBar from "../SideBar/SideBar";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 // import ClipLoader from "react-spinners/ClipLoader";
 // import RotateLoader from "react-spinners/RotateLoader"
-
 // DataBase
 import data from "../db/data";
 import Card from "../components/Card";
