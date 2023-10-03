@@ -79,6 +79,7 @@ function App() {
 
   const result = filtredData(data, slelectedCategory, query);
 
+
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
@@ -127,6 +128,7 @@ function App() {
 }
 
 export default App;
+
 
 {
   /* <Navigation query={query} handleInputChange={handleInputChange} /> */
