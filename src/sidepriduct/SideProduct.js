@@ -1,5 +1,5 @@
 import { useState ,useEffect } from "react";
-
+import Nav from "../Navigation/Nav";
 import Products from "../Products/Products";
 import Recommended from "../Recommended/Recommended";
 import SideBar from "../SideBar/SideBar";
@@ -7,10 +7,10 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 // import ClipLoader from "react-spinners/ClipLoader";
 // import RotateLoader from "react-spinners/RotateLoader"
 // DataBase
+
 import data from "../db/data";
 import Card from "../components/Card";
 
-import Loder from "../Loder/Loder";
 
 function SideProducts() {
 
@@ -61,7 +61,7 @@ function SideProducts() {
     }
 
     
-    return filteredProducts.map(({img,title,star,reviews,prevPrice,newPrice,address})=>(
+    return filteredProducts.map(({img,title,star,reviews,prevPrice,newPrice,address,Qty,Hours,Distance})=>(
       <Card
        key={Math.random()}
        img={img}
@@ -71,6 +71,9 @@ function SideProducts() {
        newPrice={newPrice}
        prevPrice={prevPrice}
        address={address}
+       Qty={Qty}
+       Hours={Hours}
+       Distance={Distance}
        />
     ))
   }
@@ -91,7 +94,11 @@ function SideProducts() {
   return (
 
     <div className="main">
+     
       <SideBar className="sidebar" handleChange={handleChange}/>
+      <Nav 
+       query={query}
+       handleInputChange={handleInputChange} />
       <Products result={result} />
     
     </div>

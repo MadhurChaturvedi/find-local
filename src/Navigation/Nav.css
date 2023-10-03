@@ -15,6 +15,7 @@ nav{
     justify-content: center;
     overflow: hidden;
     overflow-x: hidden;
+    border-bottom: 2px solid #f3f3f3;
 }
 
 
