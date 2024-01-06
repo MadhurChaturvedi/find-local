@@ -44,10 +44,19 @@
   <h2>Contributing</h2>
 
   <p>We welcome contributions to enhance our platform. Please refer to our [Contributing Guidelines](CONTRIBUTING.md) for more details.</p>
-
-  <h2>License</h2>
-
-  <p>This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.</p>
+  <h3 align="center" style={{color:red;}}" >Technology</h3>
+<p align="center" style={{display: flex;
+    justify-content: space-around;}}>
+    <img src="https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png" alt="angular" width="40" height="40"/> 
+    <img src="https://miro.medium.com/v2/resize:fit:512/1*W3ZHer9j6Cxzh78m0jLLdw.png" alt="angular" width="40" height="40"/> 
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="angular" width="40" height="40"/> 
+    <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png" alt="angular" width="40" height="40"/> 
+   <img src="https://blog.leonhassan.co.uk/content/images/2019/01/react-1.svg" width="40" height="40"/> 
+   <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="40" height="40"/> 
+   <img src="https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png" width="40" height="40"/> 
+   <img src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png" width="40" height="40"/> 
+   <img src="https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" width="40" height="40"/> 
+</p>     
 
 </body>
 </html>
