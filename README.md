@@ -6,7 +6,7 @@
 
 </head>
 <body>
- <img width="400px" src="https://github.com/MadhurChaturvedi/find-local/assets/93113162/32b5c7bd-c589-412d-a9c8-5fa06b9b5a56" alt="no-img" / >
+ <img width="400px" align="center" src="https://github.com/MadhurChaturvedi/find-local/assets/93113162/32b5c7bd-c589-412d-a9c8-5fa06b9b5a56" alt="no-img" / >
   <h1>Your E-Commerce Platform</h1>
 
   <p>Welcome to our e-commerce platform where users can find local products and locate nearby shops. This README provides an overview of key features and usage instructions.</p>
