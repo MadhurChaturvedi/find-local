@@ -58,5 +58,11 @@
    <img src="https://files.raycast.com/nwt9ncojkvwmjfkaada8upafvpnu" width="40" height="40"/> 
 </p>     
 
+```bash
+npm install
+```
+```bash
+cd find-local
+```
 </body>
 </html>
